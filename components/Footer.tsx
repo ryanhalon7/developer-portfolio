@@ -26,7 +26,7 @@ const Footer = () => {
             <div className="flex items-center md:gap-3 gap-6">
                 {socialMedia.map((profile) => (
                     <div className='w-10 h-10 cursor-pointer flex justify-center items-center backdrop-blur-lg backdrop-filter saturate-180 bg-opacity-75 bg-[var(--black-200)] rounded-lg border border-[var(--black-300)] my-2' key={profile.id}>
-                        <img src={profile.img} alt={profile.id} width="20" height="20"/>
+                        <img src={profile.img} width="20" height="20"/>
                     </div>
                 ))}
             </div>
