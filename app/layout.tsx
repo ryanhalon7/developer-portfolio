@@ -14,9 +14,21 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Halon Development",
-  description: "Desiging and developing beautiful, functional websites and applications for small to medium-sized businesses.",
+  title: "Ryan Halon | Full-Stack Developer",
+  description: "Developing performant, user-centered web applications.",
+  icons: {
+    icon: "/public/my-logo.svg",
+  },
+  openGraph: {
+    title: "Ryan Halon | Full-Stack Developer",
+    description: "Helping businesses build high-converting websites.",
+    url: "https://developer-portfolio-msjgjxd2f-ryanhalon7s-projects.vercel.app/",
+    siteName: "Ryan Halon",
+    locale: "en_US",
+    type: "website",
+  },
 };
+
 
 export default function RootLayout({
   children,
