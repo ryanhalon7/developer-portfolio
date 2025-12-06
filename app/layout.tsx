@@ -14,10 +14,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ryan Halon | Full-Stack Developer",
+  title: "Halon Development | Tampa Bay Web Design & Marketing Agency",
   description: "Developing performant, user-centered web applications.",
   icons: {
-    icon: "/public/my-logo.svg",
+    icon: "/icon.png",
   },
   openGraph: {
     title: "Ryan Halon | Full-Stack Developer",
