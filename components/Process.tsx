@@ -8,23 +8,55 @@ const Approach = () => {
   return (
     <section className="w-ful py-20">
         <h1 className="heading">
-            My <span className="bg-gradient-to-r from-purple-300 to-purple-600 bg-clip-text text-transparent">approach</span>
+            Our <span className="bg-gradient-to-r from-purple-300 to-purple-600 bg-clip-text text-transparent">Packages</span>
         </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4 mx-auto px-8">
         <Card 
-            title="Planning & Strategy" 
-            icon={<AceternityIcon order="Phase 1"/>}
-            description="We'll collaborate to map out your website's goals,target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements."
+            title="Essential Website Package" 
+            icon={<AceternityIcon order="Essentials"/>}
+            description="Includes:"
+            listItems={[
+              "1–Page Website",
+              "Mobile-responsive design",
+              "Branded colors & typography",
+              "Hero section with CTA",
+              "Services overview section",
+              "Image gallery",
+              "Basic contact form",
+              "Google Maps embed",
+              "Link to booking or contact system",
+              "Basic on-page SEO setup",
+              "1 revision round",
+              "2-week turnaround",
+            ]}  
             >
             <CanvasRevealEffect
-                animationSpeed={5.1}
-                containerClassName="bg-emerald-900"
+                animationSpeed={3}
+                containerClassName="bg-black"
+                colors={[
+                [16, 185, 129],
+                [5, 150, 105],
+                ]}
+                dotSize={2}
           />
         </Card>
         <Card 
-            title="Development & Progress Update" 
-            icon={<AceternityIcon order="Phase 2"/>}
-            description="Once we agree on the plan, I cue my lofi playlist and dive into coding. From initial sketches to polished code, I keep you updated every step of the way."
+            title="Growth Website Package" 
+            icon={<AceternityIcon order="Growth"/>}
+            description="Includes everything in Essentials plus:"
+            listItems={[
+              "5-Page Website",
+              "Service detail pages",
+              "Custom pricing section",
+              "Lead capture form",
+              "Social media integration",
+              "Testimonial section",
+              "Enhanced on-page SEO",
+              "Speed optimization",
+              "2 extra revision rounds",
+              "Training video",
+              "2-week post-launch support",
+            ]}  
             >
             <CanvasRevealEffect
                 animationSpeed={3}
@@ -34,17 +66,33 @@ const Approach = () => {
                 [232, 121, 249],
                 ]}
                 dotSize={2}
-            />
+          />
         </Card>
         <Card 
-            title="Development & Launch" 
-            icon={<AceternityIcon order="Phase 3"/>}
-            description="This is where the magic happens! Based on the approved design, I'll translate everything into functional code, building your website from the ground up."
+            title="Premier Business Package" 
+            icon={<AceternityIcon order="Premier"/>}
+            description="Includes everything in Growth plus:"
+            listItems={[
+              "8–10 Page Website",
+              "Individual service pages",
+              "Portfolio or case studies layout",
+              "Reviews page",
+              "Premium UI elements & animations",
+              "Full website copywriting (optional)",
+              "Automated booking or inquiry system",
+              "Payment or deposit setup",
+              "CRM integration",
+              "Local SEO setup",
+            ]}
             >
             <CanvasRevealEffect
                 animationSpeed={3}
-                containerClassName="bg-sky-600"
-                colors={[[125, 211, 252]]}
+                containerClassName="bg-black-50"
+                colors={[
+                [56, 189, 248],
+                [96, 165, 250],
+                ]}
+                dotSize={2}
           />
         </Card>
       </div>
@@ -56,12 +104,14 @@ const Card = ({
   title,
   icon,
   children,
-  description
+  description,
+  listItems,
 }: {
   title: string;
   icon: React.ReactNode;
   children?: React.ReactNode;
   description: string;
+  listItems?: string[];
 }) => {
   const [hovered, setHovered] = React.useState(false);
   return (
@@ -94,11 +144,20 @@ const Card = ({
         <h2 className="dark:text-white opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200 text-center text-3xl">
           {title}
         </h2>
-        <h2 className="dark:text-white text-sm opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200 text-center"
+        <h2 className="dark:text-white text-lg opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-semibold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200 text-center"
         style={{color: '#e4ecff'}}
         >
           {description}
         </h2>
+        {listItems && listItems.length > 0 && (
+          <ul className="dark:text-white text-md opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4 group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200 text-center list-none list-inside space-y-1"
+          style={{color: '#e4ecff'}}
+          >
+            {listItems.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </ul>
+        )}
       </div>
     </div>
   );

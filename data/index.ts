@@ -13,12 +13,12 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.png",
+    img: "/b1.svg",
     spareImg: "",
   },
   {
     id: 2,
-    title: "Trusted by Local Brands",
+    title: "Get Found by More Customers",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -28,8 +28,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "Latest Technologies",
+    description: "Up-to-date with the",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Passionate about design, tech, and growth.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -173,29 +173,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Conversion-First Design",
+    desc: "We design every page to guide visitors toward contacting you, booking, or buying—real results first.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Local Market Expertise",
+    desc: "We understand Tampa audiences and build messaging that speaks to local customers and neighborhoods.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Fast Turnaround & Clear Communication",
+    desc: "You’ll always know what’s happening, with quick responses and predictable project timelines start-to-finish.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Built for Scale (SEO, mobile, performance)",
+    desc: "Your site loads fast, ranks better, and stays future-proof as your business grows over time.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -205,13 +205,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    source: "https://github.com/ryanhalon7"
   },
   {
     id: 2,
     img: "/twit.svg",
+    source: "https://www.instagram.com/ryan.halon/"
   },
   {
     id: 3,
     img: "/link.svg",
+    source: "https://www.linkedin.com/in/ryan-halon-1439ab236/"
   },
 ];
