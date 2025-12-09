@@ -1,3 +1,5 @@
+import { profile } from "console";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -107,33 +109,31 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Ryan was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ryan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ryan is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Ryan completely transformed our website and actually listened to what we needed for our catering business. The design looks incredible and finally reflects our brand the way we always wanted. Customers tell us the menu and services are much easier to find now. We’ve already seen a noticeable increase in catering inquiries since the redesign. It’s been one of the best investments we’ve made.",
+    name: "Stephanie Scott",
+    title: "Director of Operations at Pickled Pepper Hospitality",
+    profile: "/steph.png",
   },
   {
     quote:
-      "Collaborating with Ryan was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ryan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ryan is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    "We struggled with customers not knowing how to book us before, but Ryan fixed that instantly. The new site makes everything extremely simple and explains our services clearly. We’re seeing more event requests come in every week, and we haven’t even started ads yet. It also looks way more professional than our old setup. Our business feels like it leveled up overnight.",
+    name: "Carson Mcluckie",
+    title: "Owner of Pourhouse Tally",
+    profile: "/carson.png",
   },
   {
     quote:
-      "Collaborating with Ryan was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ryan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ryan is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    "Our old website wasn’t bringing us anything, but Ryan rebuilt it from the ground up. Now we’re ranking better locally and getting steady homeowner inquiries. The team explained everything in plain language and made decisions that actually help our business grow. Within a couple weeks, we started noticing new customers finding us online. We finally feel like we have a real online presence.",
+    name: "Thomas Potter",
+    title: "Owner of Panhandle Pressure Washing",
+    profile: "/thom.png",
   },
   {
     quote:
-      "Collaborating with Ryan was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ryan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ryan is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Ryan was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ryan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ryan is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    "We wanted a site that showed the quality of our construction work, and Ryan nailed it. The portfolio section alone has impressed multiple new clients and helped us win jobs. We’re definitely getting more quote requests and people come in already trusting our work. Communication was clear and they handled everything professionally from start to finish. We’re extremely happy with the results and the response from customers.",
+    name: "Scott Mcluckie",
+    title: "President of WestScott Construction",
+    profile: "/scott.jpg",
   },
 ];
 
