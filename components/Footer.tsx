@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className='w-full mb-[100px] pb-10 md:mb-5' id='contact'>
         <div className='flex flex-col items-center'>
             <h1 className='heading lg:max-w-[45vw]'>
-                Ready to take <span className='bg-gradient-to-r from-purple-300 to-purple-600 bg-clip-text text-transparent'>your</span> digital presence to the next level?
+                Ready to take <span className='bg-gradient-to-r from-[#5FB3B3] to-[#2D7D7E] bg-clip-text text-transparent'>your</span> digital presence to the next level?
             </h1>
             <p className='text-white md:mt-10 my-5 text-center'>Reach out to me today and let's discuss how I can help you acheive your goals.</p>
             <a href="mailto:rhalon7@gmail.com">

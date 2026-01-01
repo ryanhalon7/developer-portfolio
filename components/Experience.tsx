@@ -7,7 +7,7 @@ const Experience = () => {
     <div className="py-20" id='testimonials'>
         <h1 className="heading">
             What Makes {' '}
-            <span className='bg-gradient-to-r from-purple-300 to-purple-600 bg-clip-text text-transparent'>Us Different</span>
+            <span className='bg-gradient-to-r from-[#5FB3B3] to-[#2D7D7E] bg-clip-text text-transparent'>Us Different</span>
         </h1>
 
         <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">

@@ -8,7 +8,7 @@ const RecentProjects = () => {
     <div className="py-20" id='projects'>
         <h1 className="heading">
             Real Results {' '}
-            <span className='bg-gradient-to-r from-purple-300 to-purple-600 bg-clip-text text-transparent'>for Local Businesses</span>
+            <span className='bg-gradient-to-r from-[#5FB3B3] to-[#2D7D7E] bg-clip-text text-transparent'>for Local Businesses</span>
         </h1>
 
         <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">

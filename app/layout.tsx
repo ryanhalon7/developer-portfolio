@@ -15,16 +15,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Halon Development | Tampa Bay Web Design & Marketing Agency",
-  description: "Developing performant, user-centered web applications.",
+  title: "Immortalis | High-Converting Websites for Local Businesses",
+  description: "Immortalis builds fast, conversion-focused websites for local businesses. Get more calls, bookings, and leads with a site designed to grow your business.",
   icons: {
-    icon: "/icon.png",
+    icon: "/immortalis-icon-light 1.png",
   },
   openGraph: {
-    title: "Ryan Halon | Full-Stack Developer",
-    description: "Helping businesses build high-converting websites.",
+    title: "Immortalis | High-Converting Websites for Local Businesses",
+    description: "Immortalis builds fast, conversion-focused websites for local businesses. Get more calls, bookings, and leads with a site designed to grow your business.",
     url: "https://developer-portfolio-msjgjxd2f-ryanhalon7s-projects.vercel.app/",
-    siteName: "Ryan Halon",
+    siteName: "Immortalis",
     locale: "en_US",
     type: "website",
   },

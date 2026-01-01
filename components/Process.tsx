@@ -8,7 +8,7 @@ const Approach = () => {
   return (
     <section className="w-ful py-20">
         <h1 className="heading">
-            Our <span className="bg-gradient-to-r from-purple-300 to-purple-600 bg-clip-text text-transparent">Packages</span>
+            Our <span className="bg-gradient-to-r from-[#5FB3B3] to-[#2D7D7E] bg-clip-text text-transparent">Packages</span>
         </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4 mx-auto px-8">
         <Card 
